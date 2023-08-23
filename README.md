@@ -3,4 +3,5 @@ The Option Pricing Calculator - Binomial Model is a powerful Python application 
 
 [Live site link here](https://binomialmodel.streamlit.app/)
 
-<img width="1065" alt="Screenshot 2023-08-24 at 12 38 26 AM" src="https://github.com/ChiragArora31/BinomialOptionPricingModel/assets/76108151/dc778d65-88f4-452d-9293-bf411bff59b3">
+
+<img width="924" alt="Screenshot 2023-08-24 at 12 46 14 AM" src="https://github.com/ChiragArora31/BinomialOptionPricingModel/assets/76108151/eced445d-f47e-4d3a-91ea-9369e9395395">
