@@ -16,7 +16,7 @@ def calculate_option_price(N, S, X, u, d, r):
 # st.markdown("[![GitHub Repo](https://imgur.com/gallery/MWVYCAn)](https://github.com/YourUsername/YourRepo)")
 st.title("Binomial Option Pricing Calculator")
 
-N = N = st.slider("Select the Number of Periods (N):", min_value=1, max_value=100, step=1)
+N = N = st.slider("Select the Number of Periods (N):", min_value=1, max_value=30, step=1)
 S = st.number_input("Enter the Current Market Price of the Asset (S):", min_value=0.00, step=0.01)
 X = st.number_input("Enter the Strike Price of the Asset (X):", min_value=0.00, step=0.01)
 u = st.number_input("Enter the Up-factor (u):", min_value=0.00, step=0.01)
