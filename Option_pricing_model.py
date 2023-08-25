@@ -13,7 +13,6 @@ def calculate_option_price(N, S, X, u, d, r):
 
     option_price = option_prices[0]
     return round(option_price, 3)
-# st.markdown("[![GitHub Repo](https://imgur.com/gallery/MWVYCAn)](https://github.com/YourUsername/YourRepo)")
 st.title("Binomial Option Pricing Calculator")
 
 N = N = st.slider("Select the Number of Periods (N):", min_value=1, max_value=30, step=1)
