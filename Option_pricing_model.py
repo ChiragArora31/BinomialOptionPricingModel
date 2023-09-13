@@ -5,9 +5,9 @@ def calculate_option_price(N, S, X, u, d, r, option_type):
     
     option_prices = [0] * (N + 1)
     for k in range(N + 1):
-        if option_type == 'call':
+        if option_type == 'Call':
             option_prices[k] = max(S * (u ** k) * (d ** (N - k)) - X, 0)
-        elif option_type == 'put':
+        elif option_type == 'Put':
             option_prices[k] = max(X - S * (u ** k) * (d ** (N - k)), 0)
 
     for i in range(N - 1, -1, -1):
@@ -30,7 +30,7 @@ r = st.number_input("Enter the Risk Free Interest Rate per Period (r) in %:", st
 
 if st.button("Calculate"):
     option_price = calculate_option_price(N_enter, S, X, u, d, r, option_type)
-    if option_type == 'call':
+    if option_type == 'Call':
         st.write(f"The European call option price at time T=0 is: {option_price}")
-    elif option_type == 'put':
+    elif option_type == 'Put':
         st.write(f"The European put option price at time T=0 is: {option_price}")
